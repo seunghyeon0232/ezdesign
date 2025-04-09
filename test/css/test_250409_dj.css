@@ -12,3 +12,15 @@ body {
     margin: 0;
     padding: 0;
 }
+.about {
+    background-image: url(../images/about_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 560px;
+    color: #ffffff;
+    text-align: center;
+}
+.about h1 {
+    font-size: 60px;
+    padding: 200px 0 10px 0;
+}
