@@ -7,3 +7,8 @@ body {
     width: 1260px;
     margin: 0 auto;
 }
+/* 와일드 카드 - 태그 전체 */
+* {
+    margin: 0;
+    padding: 0;
+}
