@@ -13,11 +13,11 @@ body {
     padding: 0;
 }
 .about {
+    height: 560px;
+    color: #ffffff;
     background-image: url(../images/about_bg.png);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 560px;
-    color: #ffffff;
     text-align: center;
 }
 .about h1 {

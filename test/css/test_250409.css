@@ -16,8 +16,8 @@ body {
     /* sans-serif 고딕, serif 명조 */
     font-family: 'Pretendard', sans-serif;
     font-size: 17px;
-    color: #555555;
     font-weight: 400;
+    color: #555555;
     line-height: 1.5;
     word-break: keep-all; /* 줄바꿈 시 단어별로 떨어짐 */
     margin: 0;
@@ -33,8 +33,8 @@ body {
 }
 .about h1 {
     font-size: 50px;
-    color: #1d1d1d;
     font-weight: 700;
+    color: #1d1d1d;
     letter-spacing: -0.01em;
     line-height: 1.3;
     margin: 150px 0 10px 0;
@@ -47,19 +47,19 @@ body {
 }
 .inv h1 {
     font-size: 17px;
-    color: #00a384;
     font-weight: 400;
+    color: #00a384;
     margin: 150px 0 10px 0;
 }
 .inv p {
     font-size: 50px;
-    color: #1d1d1d;
     font-weight: 700;
+    color: #1d1d1d;
     letter-spacing: -0.01em;
     line-height: 1.3;
     margin: 0;
 }
 .inv p strong {
-    color: #00a384;
     font-weight: 700;
+    color: #00a384;
 }

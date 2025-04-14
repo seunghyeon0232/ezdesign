@@ -4,9 +4,9 @@
 body {
     font-family: Pretendard, sans-serif;
     font-size: 17px;
-    line-height: 1.5;
-    color: #555555;
     font-weight: 400;
+    color: #555555;
+    line-height: 1.5;
 }
 .wrapper {
     width: 1260px;
@@ -18,21 +18,21 @@ body {
 }
 h1 {
     font-size: 50px;
-    color: #1d1d1d;
     font-weight: 700;
+    color: #1d1d1d;
 }
 h2 {
     font-size: 35px;
-    color: #002388;
     font-weight: 700;
+    color: #002388;
 }
 .tit {
     font-size: 17px;
-    color: #002388;
     font-weight: 400;
+    color: #002388;
 }
 .subtit {
     font-size: 50px;
-    color: #1d1d1d;
     line-height: 1.2;
+    color: #1d1d1d;
 }
