@@ -33,6 +33,12 @@ em, address{
     /* 글자의 기울임 스타일을 제거한다. */
 }
 /* END :: 태그의 기본 스타일을 삭제한다.(초기화) */
+#wrap {
+    min-width: 1300px;
+    /* 홈페이지 넓이 1260px에 왼쪽과 오른쪽 여백을 20px 정도 준다. 1260 + 20 + 20 = 1300px
+    브라우저가 줄어들었을 때, 가로 스크롤바가 생겼을 때, 왼쪽, 오른쪽 여백
+    min-width은 늘어나는 것은 상관없는데, 줄어들 때 이 수치보다 줄어드면 안된다. */
+}
 .wrapper {
     width: 1260px;
     margin: 0 auto;
@@ -149,4 +155,14 @@ footer {
     color: rgba(255,255,255,0.6);
     background-color: #202020;
     padding: 60px 0 70px 0;
+}
+footer .f_nav ul {
+    color: #fff;
+    gap: 40px;
+    display: flex;
+}
+footer .f_info {
+    margin: 30px 0 7px 0;
+    gap: 30px;
+    display: flex;
 }
