@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-
 /* START :: 태그 스타일의 초기화 (브라우저가 준 스타일 삭제) */
 * {
     margin: 0; /* 브라우저가 기본으로 주는 여백 삭제 */
