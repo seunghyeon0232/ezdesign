@@ -15,10 +15,10 @@ body {
 .about {
     height: 560px;
     color: #ffffff;
+    text-align: center;
     background-image: url(../images/about_bg.png);
     background-repeat: no-repeat;
     background-position: center center;
-    text-align: center;
 }
 .about h1 {
     font-size: 60px;
