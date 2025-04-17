@@ -1,7 +1,4 @@
 @import url(font.css);
-/* html 파일에선 main.css만 호출한다. 다른 css는 main.css가 호출한다. */
-
-/* START :: 태그의 기본 스타일을 삭제한다.(초기화) */
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +14,10 @@ body {
 }
 h1, h2, h3, h4, h5, h6{
     font-size: inherit;
-    /* 브라우저가 주는 값을 무시한다. */
     font-weight: inherit;
 }
 li {
     list-style: none;
-    /* li 태그 앞에 동그라미를 삭제한다. */
 }
 a{
     color: inherit;
@@ -30,14 +25,9 @@ a{
 }
 em, address{
     font-style: normal;
-    /* 글자의 기울임 스타일을 제거한다. */
 }
-/* END :: 태그의 기본 스타일을 삭제한다.(초기화) */
 #wrap {
     min-width: 1300px;
-    /* 홈페이지 넓이 1260px에 왼쪽과 오른쪽 여백을 20px 정도 준다. 1260 + 20 + 20 = 1300px
-    브라우저가 줄어들었을 때, 가로 스크롤바가 생겼을 때, 왼쪽, 오른쪽 여백
-    min-width은 늘어나는 것은 상관없는데, 줄어들 때 이 수치보다 줄어드면 안된다. */
 }
 .wrapper {
     width: 1260px;
@@ -45,11 +35,9 @@ em, address{
 }
 header {
     height: 100px;
-    /* header는 대부분 디자인한 높이를 잡아주고 코딩한다. header에는 존재하는 것이 많기 때문이다. */
 }
 header .wrapper{
     display: flex;
-    /* logo와 gnb를 좌우로 배치한다. */
     justify-content: space-between;
 }
 header .logo {
@@ -57,7 +45,6 @@ header .logo {
 }
 header .logo a img {
     width: 140px;
-    /* 이미지는 넓이나 높이 둘중에 하나만 설정하면 나머지는 비율에 맞게 조절된다. 넓이, 높이를 모두 설정하면 이미지가 찌그러진다. */
 }
 header .gnb ul {
     display: flex;
@@ -67,23 +54,17 @@ header .gnb ul li a {
     color: #1d1d1d;
     letter-spacing: -0.02em;
     padding: 35px 39px 29px 39px;
-    display: block; /* a의 필수값 */
+    display: block;
 }
 .visual {
     height: 800px;
     color: #fff;
     background: url(../images/visual_bg.png) no-repeat center center / cover;
-    /* background 설정을 한번에 정의한다. 반복, 좌우, 위아래, 크기
-    background-image: url(../images/visual_bg.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .visual h2 {
     font-size: 80px;
     font-weight: 700;
     letter-spacing: -0.02em;
-    /* 포토샵 값 -20 */
     line-height: 1.2;
     padding: 85px 0 30px 0;
 }
@@ -106,7 +87,6 @@ header .gnb ul li a {
 }
 .biz .list ul {
     display: flex;
-    /* li를 좌우로 배치한다. */
     justify-content: space-between;
 }
 .biz .list ul li {
@@ -115,7 +95,6 @@ header .gnb ul li a {
 .biz .list ul li a {
     text-align: center;
     display: block;
-    /* a 태그의 필수 값 */
 }
 .biz .list ul li a h3 {
     font-size: 35px;
@@ -147,7 +126,6 @@ header .gnb ul li a {
 }
 .brand .cont {
     color: rgba(255,255,255,0.6);
-    /* 흰색(#fff) RGB값 255 - opacity 60% */
     border-top: 1px solid rgba(255,255,255,0.2);
     padding: 17px 0 0 0;
 }

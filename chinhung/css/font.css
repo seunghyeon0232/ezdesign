@@ -1,4 +1,3 @@
-/* 웹폰트를 불러서 선언하는 역할 */
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 400;
@@ -15,5 +14,5 @@
 	font-family: 'Pretendard';
 	font-weight: 800;
 	font-display: swap;
-	src: local('Pretendard Bold'), url(../font/Pretendard-ExtraBold.woff2) format('woff2'), url(../font/Pretendard-ExtraBold.woff) format('woff');
+	src: local('Pretendard ExtraBold'), url(../font/Pretendard-ExtraBold.woff2) format('woff2'), url(../font/Pretendard-ExtraBold.woff) format('woff');
 }

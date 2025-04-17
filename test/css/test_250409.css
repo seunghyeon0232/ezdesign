@@ -3,23 +3,20 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local('Pretendard Regular'), url(../font/Pretendard-Regular.woff2) format('woff2'), url(../font/Pretendard-Regular.woff) format('woff');
-    /* local 내 컴퓨터에 Pretendard가 설치되어 있다면 그걸 먼저 쓴다. */
 }
 @font-face {
 	font-family: 'Pretendard';
 	font-weight: 700;
 	font-display: swap;
 	src: local('Pretendard Bold'), url(../font/Pretendard-Bold.woff2) format('woff2'), url(../font/Pretendard-Bold.woff) format('woff');
-    /* local 내 컴퓨터에 Pretendard가 설치되어 있다면 그걸 먼저 쓴다. */
 }
 body {
-    /* sans-serif 고딕, serif 명조 */
     font-family: 'Pretendard', sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #555555;
     line-height: 1.5;
-    word-break: keep-all; /* 줄바꿈 시 단어별로 떨어짐 */
+    word-break: keep-all;
     margin: 0;
     padding: 0;
 }

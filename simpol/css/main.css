@@ -1,0 +1,11 @@
+@import url(font.css);
+@import url(common.css);
+@import url(default.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header .inner {
+    display: flex;
+}

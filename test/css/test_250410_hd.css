@@ -93,7 +93,6 @@ body {
     color: #fff;
     background-image: url(../images/mission_bg.png);
     background-size: cover;
-    /* 배경 꽉 채우기 */
     background-position: center center;
     background-repeat: no-repeat;
     padding: 100px 0 0 50px;
@@ -102,11 +101,9 @@ body {
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -0.08em;
-    /* -30 정도 */
     line-height: 1.3;
     margin: 35px 0 35px 0;
 }
 .mission .cnt {
     color: rgba(255,255,255,0.8);
-    /* opacity 80% */
 }
