@@ -1,7 +1,4 @@
-/* html 파일에선 main.css만 호출한다. 다른 css는 main.css가 호출한다. */
 @import url(font.css);
-
-/* START :: 태그의 기본 스타일을 삭제한다.(초기화) */
 * {
     margin: 0;
     padding: 0;
@@ -11,29 +8,28 @@ body {
     font-family: 'Pretendard', sans-serif;
     font-size: 17px;
     font-weight: 400;
-    color: #555555;
     line-height: 1.5;
     word-break: keep-all;
+    color: #555555;
 }
 h1, h2, h3, h4, h5, h6{
-    font-size: inherit; /* 브라우저가 주는 값을 무시한다. */
+    font-size: inherit;
     font-weight: inherit;
 }
 li {
-    list-style: none; /* li 태그 앞에 동그라미를 삭제한다. */
+    list-style: none;
 }
 a{
-    color: inherit;
     text-decoration: none;
+    color: inherit;
 }
-/* END :: 태그의 기본 스타일을 삭제한다.(초기화) */
 .wrapper {
     width: 1260px;
     margin: 0 auto;
 }
 .page1 {
-    background-color: #fff;
     margin: 120px 0 100px 0;
+    background-color: #fff;
 }
 .page1 .tit {
     font-size: 40px;
@@ -48,28 +44,28 @@ a{
     margin: 17px 0 0 0;
 }
 .page1 .btn {
-    color: #00b900;
-    border: 1px solid #00b900;
+    display: inline-block;
     margin: 35px 0 0 0;
     padding: 10px 30px 10px 30px;
-    display: inline-block;
+    border: 1px solid #00b900;
+    color: #00b900;
 }
 .page1 .img {
     margin: 40px 0 0 0;
 }
 .page2 {
     height: 700px;
-    color: #fff;
     background-image: url(../images/bg_img.png);
-    background-size: cover; /* 배경 꽉 채우기 */
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     text-align: center;
+    color: #fff;
 }
 .page2 .tit {
+    padding: 125px 0 0 0;
     font-size: 40px;
     font-weight: 700;
-    padding: 125px 0 0 0;
 }
 .page2 .tit {
     margin: 30px 0 0 0;
@@ -78,10 +74,10 @@ a{
     margin: 30px 0 0 0;
 }
 .page2 .btn {
-    border: 1px solid #fff;
+    display: inline-block;
     margin: 35px 0 0 0;
     padding: 10px 30px 10px 30px;
-    display: inline-block;
+    border: 1px solid #fff;
 }
 .page2 .img {
     margin: 40px 0 0 0;
