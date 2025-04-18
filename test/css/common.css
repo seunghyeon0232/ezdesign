@@ -12,4 +12,5 @@ body {
 }
 #wrap {
     min-width: 1320px;
+    position: relative;
 }
