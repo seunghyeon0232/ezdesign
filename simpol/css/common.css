@@ -10,3 +10,6 @@ body {
     width: 1260px;
     margin: 0 auto;
 }
+#wrap {
+    min-width: 1320px;
+}
