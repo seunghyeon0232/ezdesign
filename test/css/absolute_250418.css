@@ -1,0 +1,14 @@
+@import url(font.css);
+@import url(default.css);
+@import url(common.css);
+.visual {
+    height: 800px;
+    background: url(../images/visual_bg.jpg) no-repeat center center / cover;
+    text-align: center;
+    color: #fff;
+}
+.visual h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.3;
+}
